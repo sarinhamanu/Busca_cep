@@ -107,6 +107,7 @@ const Cadastro = () => {
            <Footer /> 
        </div>
    );
+   
 }
 
 export default Cadastro;

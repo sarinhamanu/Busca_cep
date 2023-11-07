@@ -9,6 +9,7 @@ import {
 import BuscaCep from "../components/BuscaCepForm";
 import Cadastro from "../components/Cadastro";
 import Listagem from "../components/Listagem";
+import Editar from "../components/Editar";
 
     const AppRouter =() => {
         return(
@@ -16,7 +17,8 @@ import Listagem from "../components/Listagem";
             <Routes>
                 <Route path="buscacep" element={<BuscaCep/>}/> 
                  <Route path="cadastro" element={<Cadastro/>}/>    
-                 <Route path="Listagem" element={<Listagem/>}/>        
+                 <Route path="Listagem" element={<Listagem/>}/>    
+                 <Route path="/Editar/:id" element={<Editar/>}/>   
                </Routes>
             </BrowserRouter>
         )
